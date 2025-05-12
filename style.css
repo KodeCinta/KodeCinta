@@ -162,3 +162,39 @@ body {
     background-color: #fca5a5;
     font-size: 40px;
   }
+
+  .guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3a50;
+    border-radius: 20px;
+    color: #f9fafb;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+  }
+
+  .guide:hover {
+    transform: scale(1.05);
+  }
+
+  .guide h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fbb6ce;
+  }
+
+  .guide .explain {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #e5e7eb;
+    line-height: 1.6;
+  }
+
+  .guide p {
+    margin: 0;
+  }
